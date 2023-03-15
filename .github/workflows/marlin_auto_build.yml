@@ -5,8 +5,10 @@ on:
   # push:
   #   paths:
   #     - 'builds/**'
-  schedule:
-    - cron:  '0 0 * * *' 
+  #schedule:
+  #  - cron:  '0 0 * * *' 
+
+permissions: write-all
 
 jobs:
   create_builds:
