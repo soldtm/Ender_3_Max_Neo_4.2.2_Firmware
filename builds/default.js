@@ -71,6 +71,7 @@ module.exports = {
             ["DEFAULT_XJERK", 5.0],
             ["DEFAULT_YJERK", 5.0],
             ["DEFAULT_ZJERK", 0.3],
+            ["DEFAULT_EJERK", 15.0],
 
             // Z Probe Options
             "USE_PROBE_FOR_Z_HOMING",
@@ -193,6 +194,7 @@ module.exports = {
             "INTEGRATED_BABYSTEPPING",
             "BABYSTEP_WITHOUT_HOMING",
             "BABYSTEP_ALWAYS_AVAILABLE",
+            "LIN_ADVANCE",
             "ADVANCED_PAUSE_FEATURE",
             "SQUARE_WAVE_STEPPING",
 
